@@ -1,0 +1,33 @@
+{
+  "name": "pure-css-slider",
+  "version": "1.0.0",
+  "description": "Slider created only using HTML & CSS",
+  "scripts": {
+    "dev": "NODE_ENV=dev gulp",
+    "dev:win": "set NODE_ENV=dev&gulp",
+    "prod": "NODE_ENV=production gulp",
+    "prod:win": "set NODE_ENV=production&gulp"
+  },
+  "keywords": [
+    "pure",
+    "css",
+    "slider"
+  ],
+  "author": {
+    "name": "steve-232",
+    "email": "steve232np@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/steve-232/pure-css-slider"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.7.2",
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-plugin-import": "^2.19.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2",
+    "node-sass": "^4.13.0"
+  }
+}
